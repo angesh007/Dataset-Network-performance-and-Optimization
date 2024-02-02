@@ -57,5 +57,6 @@ information with columns including Flow.ID, Source.IP, Source.Port, Destination.
 Protocol, and ProtocolName, and outputs the count of unique Source.IP values for each different ProtocolName.
 The program should filter the results to only include the specified list of ProtocolNames (e.g. HTTP,
 HTTP_PROXY, SSL, GOOGLE).
-Objective:2: MapReduce program in Java to count the number of occurrences of each unique Source.IP and
+
+Objective-2: MapReduce program in Java to count the number of occurrences of each unique Source.IP and
 Destination.IP pair
